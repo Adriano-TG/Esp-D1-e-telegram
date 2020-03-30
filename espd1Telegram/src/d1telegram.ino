@@ -16,7 +16,7 @@ void setup() {
    Serial.begin(115200);
    lcd.print("TelegramBot...");
    myBot.wifiConnect("Net","44643904"); 
-   myBot.setTelegramToken("1084311211:AAGyuARTxFoe-Dvy2FEmuJ8a5vjygL90Gbw"); 
+   myBot.setTelegramToken("1084311211:xxxxxxxxxxxxxxxxxxxxxxxxxxxx"); 
    
    myKbd.addButton("Ligar",on,CTBotKeyboardButtonQuery);
    myKbd.addButton("Desligar",off,CTBotKeyboardButtonQuery);

@@ -4,7 +4,7 @@
 #include <NTPtimeESP.h>
 #define DEBUG_ON
 
-NTPtime NTPch("gps.ntp.br"); 
+NTPtime NTPch("a.st1.ntp.br"); 
 char *ssid      = "Net";               
 char *password  = "44643904";  
 

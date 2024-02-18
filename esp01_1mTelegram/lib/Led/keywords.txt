@@ -1,0 +1,5 @@
+Led	KEYWORD1
+LigaLed	KEYWORD2
+DesligaLed	KEYWORD2
+SetPino	KEYWORD2
+PiscaLed	KEYWORD2

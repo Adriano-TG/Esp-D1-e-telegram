@@ -4,6 +4,7 @@
 #define on "Liga" 
 #define off "Desligado"
 
+
 CTBotInlineKeyboard myKbd;
 CTBot myBot;
 Led led;
@@ -12,6 +13,7 @@ int Id = 692208821;
 int i;
 
 void telegram();
+
 
  void setup() {
    
@@ -30,8 +32,7 @@ void telegram();
 	else{
 	Serial.println("\nErro de conexão");
   }
- 
-  
+
 }
 
 
@@ -41,7 +42,8 @@ telegram();
 
 
 }
-    
+
+
 void telegram()
 {
   TBMessage msg;
@@ -68,7 +70,8 @@ if (myBot.getNewMessage(msg))
   else if (msg.text == "Luz"||msg.text=="luz")
   {
 	  myBot.sendMessage(Id,"Lampada do quarto o que deseja fazer?",myKbd);
-}
+  }
+
   else if (msg.messageType == CTBotMessageQuery)
 {
   if (msg.callbackQueryData.equals(on)){
